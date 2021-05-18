@@ -1,0 +1,6 @@
+# ElasticSearch
+ElasticSearch实战
+ElasticSearch是什么
+百万级以内和Sonar，千万级级别，ES性能提升更快
+
+Elasticsearch的实现原理主要分为以下几个步骤，首先用户将数据提交到Elasticsearch数据库中，再通过分词控制器去将对应的语句分词，将其权重和分词结果一并存入数据，当用户搜索数据时候，再根据权重将结果排名，打分，再将返回结果呈现给用户。
